@@ -126,3 +126,12 @@ img {
 a {
     color: hotpink;
 }
+
+.poster {
+    transition: max-width .5s ease-in-out 0.5s; /* Animation */
+}
+
+.poster:hover{
+    max-width: 70%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

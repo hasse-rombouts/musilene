@@ -1,0 +1,25 @@
+{
+  "name": "musilene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasse-rombouts/musilene.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasse-rombouts/musilene/issues"
+  },
+  "homepage": "https://github.com/hasse-rombouts/musilene#readme",
+  "dependencies": {
+    "flowbite": "^1.6.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

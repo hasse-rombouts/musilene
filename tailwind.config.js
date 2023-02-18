@@ -9,7 +9,17 @@ module.exports = {
         'raleway': ['Raleway', 'sans-serif'],
         'holtwood': ['Holtwood One SC', 'serif']
       },
-    },
+
+      animation: {
+        fadeIn: "fadeIn 1ms ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        }
+      }
+    }
   },
 
   plugins: [

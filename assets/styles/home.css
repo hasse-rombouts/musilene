@@ -67,6 +67,7 @@ img {
    /* define the number of grid columns */
    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
    grid-template-rows: auto;
+   grid-auto-rows: auto;
    /* justify-items: center; */
    gap: 5%;
    padding: 0 0 30px;
@@ -96,10 +97,10 @@ img {
     color: black;
 }
 
-.center {
+/* .center {
     text-align: center;
     width: 100%;
-}
+} */
 /* i { vertical-align: middle; } */
 
 .alt-color, .footer {

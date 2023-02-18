@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.{html,js}"],
+  content: ['./src/**/*.{html,js}', './node_modules/flowbite/**/*.js'],
   theme: {
-    extend: {},
+    extend:
+    {
+      fontFamily: {
+        'opensans': ['Open Sans', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif'],
+        'holtwood': ['Holtwood One SC', 'serif']
+      },
+    },
   },
-  plugins: [],
+
+  plugins: [
+    require('flowbite/plugin')
+  ]
 }

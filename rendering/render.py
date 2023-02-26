@@ -22,12 +22,3 @@ def format_file(file_content: str, data: Dict[str, Any]) -> str:
         return '\n'.join([render_words(match.group('content'), {match.group('key'): item}) for item in collection])
     formatted = re.sub(for_pattern, lambda match: replace(match, data), file_content)
     return render_words(formatted, data)
-
-# example = """
-# {{ title }}
-# {{ for value in users }}
-#     User: <a>{{ value.name }}</a> aged {{ value.age }}
-# {{ endfor }}
-# """
-# result = format_file(example, {"title": "My title", 'users': [{"name": "Hasse", "age": "22"}, {"name": "Willem", "age": "22"}]})
-# print(result)

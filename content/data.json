@@ -1,3 +1,23 @@
 {
-  "title": "Musilene"
+  "title": "Musilene",
+  "concerts": [
+    {
+      "title": "Aperitiefconcert",
+      "date": "5 maart 2023, 11u00",
+      "addressLine1": "Refter St. Lambertusscholen",
+      "addressLine2": "De Merodedreef, Westerlo"
+    },
+    {
+      "title": "Lenteconcert",
+      "date": "20 mei 2023, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo"
+    },
+    {
+      "title": "Herfstconcert",
+      "date": "18 november 2023, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo"
+    }
+  ]
 }

@@ -9,7 +9,7 @@ from render import format_file
 
 def index_files():
     folder_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../build'))
-    shutil.rmtree(folder_path)
+    shutil.rmtree(folder_path, ignore_errors=True)
     files = []
     src_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
     for dirpath, _, filenames in os.walk(src_folder):

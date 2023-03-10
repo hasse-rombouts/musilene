@@ -1,3 +1,5 @@
 node_modules/*
 .DS_Store
 build/
+rendering/.python-version
+**/__pycache__

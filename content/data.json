@@ -2,22 +2,46 @@
   "title": "Musilene",
   "concerts": [
     {
-      "title": "Aperitiefconcert",
+      "title": "Aperitiefconcert ism Davidsfonds Westerlo",
       "date": "5 maart 2023, 11u00",
-      "addressLine1": "Refter St. Lambertusscholen",
-      "addressLine2": "De Merodedreef, Westerlo"
+      "addressLine1": "Refter Middenschool Vrije St. Lambertusscholen",
+      "addressLine2": "De Merodedreef, Westerlo",
+      "link": "https://goo.gl/maps/F2tthA5JDnXzpjf28"
     },
     {
       "title": "Lenteconcert",
-      "date": "20 mei 2023, 20u00",
+      "date": "20 mei 2023",
       "addressLine1": "De Zoerla",
-      "addressLine2": "Gevaertlaan 1, Westerlo"
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
+    },
+    {
+      "title": "Feestconcert 35 jaar Musilene",
+      "date": "18 november 2023, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
+    },
+    {
+      "title": "Feestconcert 35 jaar Musilene",
+      "date": "19 november 2023, 15u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
+    },
+    {
+      "title": "Lenteconcert",
+      "date": "18 mei 2024, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     },
     {
       "title": "Herfstconcert",
-      "date": "18 november 2023, 20u00",
+      "date": "23 november 2024, 20u00",
       "addressLine1": "De Zoerla",
-      "addressLine2": "Gevaertlaan 1, Westerlo"
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     }
   ]
 }

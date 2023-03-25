@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url("https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Raleway:wght@200&display=swap");
+
+@layer components {
+  .nav-item {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}

@@ -24,6 +24,8 @@ def index_files():
     return files
 
 def process_file(filename: str, data: Dict):
+    if os.path.isdir(filename):
+        return
     if not filename.endswith('.html'):
         print("Copying file", filename)
         dest_path =filename.replace('/src/', '/build/')

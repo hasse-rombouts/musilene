@@ -6,6 +6,7 @@ import time
 from typing import Dict
 
 from render import format_file
+from copy_flyer import copy_flyer
 
 def index_files():
     path_one_level_up = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -53,6 +54,7 @@ def build():
     data = get_data()
     for file in files:
         process_file(file, data)
+    copy_flyer()
 
 if __name__ == '__main__':
     t0 = time.perf_counter()

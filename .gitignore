@@ -3,3 +3,5 @@ node_modules/*
 build/
 *.pyc
 .python-version
+rendering/.python-version
+**/__pycache__

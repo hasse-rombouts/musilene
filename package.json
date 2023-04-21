@@ -16,9 +16,6 @@
     "url": "https://github.com/hasse-rombouts/musilene/issues"
   },
   "homepage": "https://github.com/hasse-rombouts/musilene#readme",
-  "dependencies": {
-    "flowbite": "^1.6.3"
-  },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   }

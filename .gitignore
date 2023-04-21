@@ -5,3 +5,4 @@ build/
 .python-version
 rendering/.python-version
 **/__pycache__
+src/dist

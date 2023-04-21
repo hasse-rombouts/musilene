@@ -8,83 +8,171 @@
   <script src="https://kit.fontawesome.com/80fd95a840.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script></head>
 <body class="bg-zinc-800 text-gray-200">
-    <nav class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-        <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="index.html" class="flex items-center">
-            <img src="assets/figures/home-button.jpg" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
-            <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">Musilene</span>
-        </a>
-        <div class="flex md:order-2">
-            <button id="navbar-toggler" data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-          </button>
-        </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <a href="index.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
-            </li>
-            <li>
-              <a href="about.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Over Musilene</a>
-            </li>
-            <li>
-              <a href="join-us.html" class="block py-2 pl-3 pr-4 text-white bg-gray-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Kom Meespelen!</a>
-            </li>
-            <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Andere Activiteiten</a>
-            </li>
-            <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-            </li>
-            <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sponsors</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-    </nav>
-    <div class="p-8">
-        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow overflow-hidden">
-            <div class="flex justify-center">
-                <div class="shrink-0">
-                    <img class="h-full w-24 object-cover md:w-48" src="assets/figures/cello.jpg" alt="Cello speler">
-                </div>
-                <div class="my-auto">
-                  <div class="p-8">
-                    <!-- <div class="uppercase tracking-wide text-sm text-slate-800 font-semibold">Heb je in om met deze groep mee te spelen? </div> -->
-                    <p class="mt-2 text-slate-900">Musilene is meer dan repeteren alleen. Het is echt een hechte groep waar iedereen met iedereen omgaat en waar je vrienden maakt voor het leven, ongeacht leeftijd of uit welke regio je komt. Geregeld organiseren we activiteiten buiten de repetities om. Zo zijn er filmavonden en quizzen, cantussen en frietkoten, nieuwjaarsmarshmallows boven het kampvuur en Disneykaraoke, survivals en hilarische groepsspelen, concertbezoeken en nog veel meer.
-                      </p>
-                  </div>
+    <!-- navbar -->
+    <nav id="navbar" class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <a href="index.html" class="flex items-center">
+          <img src="assets/figures/home-button.jpg" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
+          <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">Musilene</span>
+      </a>
+      <div class="flex lg:order-2">
+          <button id="navbar-toggler" data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="index.html" class="nav-item">Home</a>
+          </li>
+          <li>
+            <a href="concerten.html" class="nav-item">Concerten</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-item">Over Musilene</a>
+          </li>
+          <li>
+            <a href="join-us.html" class="nav-item lg:text-blue-700" aria-current="page">Kom Meespelen!</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">Activiteiten</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">Sponsors</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+  </nav>
+
+    <section class="container m-auto text-justify">
+      <section class="px-4 sm:w-5/6 md:w-8/12 lg:px-12 m-auto">
+          <!-- voor wie -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/blazer.jpg" alt="Blaas Instrument">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Voor Wie?
+                </p>
               </div>
             </div>
-        </div>
-    </div>
-    <div class="p-8">
-        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow overflow-hidden">
-            <div class="md:flex justify-center">
-                <div class="md:shrink-0 md:order-last">
-                    <img class="w-full h-auto max-h-72 object-cover md:h-full md:w-96" src="assets/figures/f (6) (1).jpg" alt="Blaas instrument">
-                </div>
-                <div class="my-auto md:order-1 w-full p-8">
-                    <div class="uppercase tracking-wide text-sm text-slate-800 font-semibold">
-                        Wanted Instruments
-                    </div>
-                    <div class="mt-2 text-slate-900">
-                        <ul class="list-disc pl-8">
-                            <li>Fluit</li>
-                            <li>Oboe</li>
-                            <li>Hoorn</li>
-                            <li>Trompet</li>
-                            <li>Trombone</li>
-                            <li>Tuba</li>
-                            <li>Percussie</li>
-                        </ul>
-                    </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                Musilene is voor alle jonge muzikanten die graag samen muziek willen maken. De meeste van onze muzikanten zijn tussen 12 en 30 jaar oud. Om mee te spelen in het orkest moet je minstens 3 jaar instrumentles achter de rug hebben of een vergelijkbaar niveau hebben.            
+              </p>
+              <p>
+                Musilene is een symfonisch orkest, dat wil zeggen dat zowel strijkers, houtblazers, koperblazers, slagwerkers als harp en piano welkom zijn. Aangezien er niet zo heel veel symfonische jeugdorkesten zijn, komen onze muzikanten van heinde en verre om mee te spelen in het orkest.
+              </p>
+
+            </div>
+          </div>
+          <!-- waar en wanneer -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/slager.jpg" alt="Dirigent Thomas Geudens">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Waar & Wanneer?
+                </p>
               </div>
             </div>
-        </div>
-    </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                We repeteren iedere zaterdag van 17u00 tot 19u00 in ons repetitielokaal in de Kunstencampus van Westerlo, 
+                <a class="text-blue-400" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank">Boerenkrijglaan 23</a>. Een repetitiejaar loopt vanaf het laatste weekend van augustus tot en met ons lenteconcert eind mei.         
+              </p>
+              <p>
+                Wie graag wil meespelen mag altijd eerst een paar keer vrijblijvend komen proberen. Als je er eens een repetitie niet kan zijn, dan stuur je op voorhand een mailtje naar musilene@gmail.com. Op die manier kunnen wij de repetities het beste plannen. 
+              </p>
+            </div>
+          </div>
+          <!-- most-wanted instrumenten -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/trommel.jpg" alt="Dirigent Thomas Geudens">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Most Wanted Instrumenten
+                </p>
+              </div>
+            </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                Uiteraard zijn alle nieuwe muzikanten van harte welkom, maar sommige instrumenten staan toch op onze 'most-wanted' lijst. Speel je:
+                <ul class="pl-8 pb-3" style="list-style-type:square">
+                  <li>hobo</li>
+                  <li>trombone</li>
+                  <li>tuba</li>
+                  <li>contrabas</li>
+                  <li>altviool</li>
+              </ul>
+              aarzel dan zeker niet om mee te komen spelen!  
+              </p>
+            </div>
+          </div>
+          <!-- werkwijze -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/Lente_2022 (16).jpg" alt="Dirigent Thomas Geudens">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Werkwijze
+                </p>
+              </div>
+            </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                Doordat er twee dirigenten voor het orkest staan, heeft één van hen steeds de handen vrij om ook individuele muzikanten te helpen tijdens de repetities. Daarnaast splitsen we het orkest regelmatig op in kleinere groepjes zodat we sneller, meer in detail en meer instrumenttechnisch kunnen werken aan het repertoire.      
+              </p>
+              <p>
+                Alle muziekstukken arrangeren we zelf voor het orkest, zodat we deze volledig kunnen afstemmen op het niveau van onze muzikanten en de samenstelling van het orkest. Het repertoire is steeds heel gevarieerd: zowel klassiek als wereldmuziek, pop- en rockmuziek, musical en film komen op de pupiter terecht. We verkennen zoveel mogelijk verschillende stijlen en houden daarbij uiteraard ook rekening met de inbreng van onze muzikanten. Voor elk wat wils dus. 
+              </p>
+            </div>
+          </div>
+          <!-- concerten -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/dirigent_resized.jpg" alt="Dirigent Thomas Geudens">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Concerten
+                </p>
+              </div>
+            </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                Een drietal keer per jaar geven we een concert in de buurt van Westerlo. Aangezien het spelen in een orkest een groepsgebeuren is, verwachten we dat muzikanten minstens 2/3 van de repetities aanwezig zijn om een concert te kunnen meespelen. Kan je eens niet aanwezig zijn bij een repetitie is dat geen enkel probleem, maar stuur ons dan steeds op voorhand een mailtje zodat wij de repetities vlot kunnen inplannen. 
+              </p>
+            </div>
+          </div>
+          <!-- Alternatieve leercontext -->
+          <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+            <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+              <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/violin3.jpg" alt="Dirigent Thomas Geudens">
+              <div class="text-center sm:text-left space-y-0.5">
+                <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+                  Alternatieve leercontext
+                </p>
+              </div>
+            </div>
+            <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-900 bg-white rounded-xl grow space-y-3">
+              <p>
+                Alternatieve leercontext is een manier om de orkestrepetities van Musilene mee te laten tellen als les ensemble of samenspel van de muziekacademie. Ook hiervoor kan je bij Musilene terecht. Momenteel werken we samen met de academies van Geel, Mol, Herentals, Herenthout en Lier.
+              </p>
+              <p>
+                Informeer je bij je academie voor meer info of stuur ons een berichtje.
+              </p>
+            </div>
+          </div>
+      </section>
+    </section>
+
+
     <footer class="px-4 py-4 dark:bg-gray-800 ">
         <div class="p-4 w-full bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright &copy; <a href="https://musilene.be/" class="hover:underline">Musilene 2023</a>.

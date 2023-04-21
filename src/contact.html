@@ -1,23 +1,135 @@
 <!doctype html>
-<html>
+<html class="min-h-screen">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Musilene</title>
   <link href="dist/output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/80fd95a840.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  <form>
-    <label class="block">
-      <span class="block text-sm font-medium text-slate-700">Username</span>
-      <!-- Using form state modifiers, the classes can be identical for every input -->
-      <input type="text" value="tbone" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-        focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
-        disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-        invalid:border-pink-500 invalid:text-pink-600
-        focus:invalid:border-pink-500 focus:invalid:ring-pink-500
-      "/>
-    </label>
-    <!-- ... -->
-  </form>
+
+<body class="bg-zinc-800 text-gray-200 min-h-screen flex flex-col justify-between">
+  <nav
+    class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <a href="index.html" class="flex items-center">
+        <img src="assets/figures/home-button.jpg" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
+        <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">Musilene</span>
+      </a>
+      <div class="flex md:order-2">
+        <button id="navbar-toggler" data-collapse-toggle="navbar-sticky" type="button"
+          class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul
+          class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="index.html" class="nav-item">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-item">Over Musilene</a>
+          </li>
+          <li>
+            <a href="join-us.html" class="nav-item">Kom Meespelen</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">Andere Activiteiten</a>
+          </li>
+          <li>
+            <a href="join-us.html" class="nav-item lg:text-blue-700" aria-current="page">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">Sponsors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="p-8 text-slate-900 flex-grow">
+    <div class="w-100 lg:w-9/12 mx-auto bg-white rounded-xl shadow overflow-hidden mt-10">
+      <div class="flex justify-center flex-col md:flex-row">
+          <div class="p-8 grow md:order-1 order-2 my-auto">
+            <h2 class="font-bold text-xl mb-4">Contacteer ons</h2>
+
+            <div class="flex align-center mb-2">
+              <div>
+                <i class="w-8 text-xl fa-solid fa-location-dot text-gray-500"></i>
+              </div>
+              <p class="underline"><a href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8">Boerenkrijglaan 23, 2260 Westerlo</a></p>
+            </div>
+            <div class="flex align-center mb-2">
+              <div>
+                <i class="w-8 text-xl fa-solid fa-envelope text-gray-500"></i>
+              </div>
+              <p class="underline"><a href="mailto:musilene@gmail.com"> musilene@gmail.com</a></p>
+            </div>
+            <h3 class="font-bold mt-4 mb-2">Rudi Bellens (voorzitter bestuur)</h3>
+            <div class="flex align-center mb-2">
+              <div>
+                <i class="w-8 text-xl fa-solid fa-phone text-gray-500"></i>
+              </div>
+              <p class="underline"><a href="tel:003214265657">+32 (0)14 26 56 57</a></p>
+            </div>
+            
+            <h3 class="font-bold mt-4 mb-2">Volg ons op sociale media</h3>
+            <div class="flex align-center mb-2">
+              <div>
+                <i class="w-8 text-xl fa-brands fa-square-facebook text-gray-500"></i>
+              </div>
+              <p><a href="https://www.facebook.com/musilene">@musilene</a></p>
+            </div>
+            <div class="flex align-center mb-2">
+              <div>
+                <i class="w-8 text-xl fa-brands fa-square-instagram text-gray-500"></i>
+              </div>
+              <p><a href="https://www.instagram.com/symfonischjeugdorkestmusilene/">@symfonischjeugdorkestmusilene</a></p>
+            </div>
+          </div>
+          <div class="bg-accent md:w-2/5 md:order-2 order-1 h-80 md:h-auto">
+            <img class="h-full w-full object-cover object-right" src="assets/figures/overzicht2.jpg" alt="Cello speler">
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="px-4 py-4 dark:bg-gray-800">
+    <div class="p-4 w-full bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright &copy; <a
+          href="https://musilene.be/" class="hover:underline">Musilene 2023</a>.
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+
+
+        <li>
+          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i
+              class="fa-brands fa-square-facebook large-black"></i></a>
+        </li>
+        <li>
+          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.instagram.com/symfonischjeugdorkestmusilene/"
+            target="_blank"><i class="text-xl fa-brands fa-square-instagram large-black"></i></a>
+        </li>
+        <li>
+          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:musilene@gmail.com" target="_blank"><i
+              class="fa-solid fa-envelope large-black"></i></i></a>
+        </li>
+        <li>
+          <a class="md:mr-6 sm:text-lg" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank"><i
+              class="fa-solid fa-location-dot large-black"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
+
 </html>

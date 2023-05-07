@@ -8,7 +8,7 @@
   <script src="https://kit.fontawesome.com/80fd95a840.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </head>
-<body class="bg-zinc-800 text-gray-200">
+<body class="bg-zinc-800 text-gray-200 min-h-screen flex flex-col">
   <nav id="navbar" class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="index.html" class="flex items-center">
@@ -36,7 +36,7 @@
           <a href="join-us.html" class="nav-item">Kom Meespelen!</a>
         </li>
         <li>
-          <a href="activiteiten.html" class="nav-item">Activiteiten</a>
+          <a href="activities.html" class="nav-item">Activiteiten</a>
         </li>
         <li>
           <a href="contact.html" class="nav-item lg:text-amber-600">Contact</a>
@@ -47,53 +47,55 @@
       </ul>
     </div>
     </div>
-</nav>
-  <div class="p-8 text-slate-900 flex-grow">
-    <div class="w-100 lg:w-9/12 mx-auto bg-white rounded-xl shadow overflow-hidden mt-10">
-      <div class="flex justify-center flex-col md:flex-row">
-          <div class="p-8 grow md:order-1 order-2 my-auto">
-            <h2 class="font-bold text-xl mb-4">Contacteer ons</h2>
-
-            <div class="flex align-center mb-2">
-              <div>
-                <i class="w-8 text-xl fa-solid fa-location-dot text-gray-500"></i>
+  </nav>
+  <section class="container m-auto text-slate-900">
+    <div class="px-4 sm:w-5/6 md:w-8/12 lg:px-12 m-auto">
+      <div class="mx-auto bg-white rounded-xl shadow overflow-hidden mt-8 md:mt-12 h-max">
+        <div class="flex justify-center flex-col md:flex-row">
+            <div class="p-8 grow md:order-1 order-2 my-auto">
+              <h2 class="font-bold text-xl mb-4">Contacteer ons</h2>
+  
+              <div class="flex align-center mb-2">
+                <div>
+                  <i class="w-8 text-xl fa-solid fa-location-dot text-gray-500"></i>
+                </div>
+                <p class="underline"><a href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8">Boerenkrijglaan 23, 2260 Westerlo</a></p>
               </div>
-              <p class="underline"><a href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8">Boerenkrijglaan 23, 2260 Westerlo</a></p>
-            </div>
-            <div class="flex align-center mb-2">
-              <div>
-                <i class="w-8 text-xl fa-solid fa-envelope text-gray-500"></i>
+              <div class="flex align-center mb-2">
+                <div>
+                  <i class="w-8 text-xl fa-solid fa-envelope text-gray-500"></i>
+                </div>
+                <p class="underline"><a href="mailto:musilene@gmail.com"> musilene@gmail.com</a></p>
               </div>
-              <p class="underline"><a href="mailto:musilene@gmail.com"> musilene@gmail.com</a></p>
-            </div>
-            <h3 class="font-bold mt-4 mb-2">Rudi Bellens (voorzitter bestuur)</h3>
-            <div class="flex align-center mb-2">
-              <div>
-                <i class="w-8 text-xl fa-solid fa-phone text-gray-500"></i>
+              <h3 class="font-bold mt-4 mb-2">Rudi Bellens (voorzitter bestuur)</h3>
+              <div class="flex align-center mb-2">
+                <div>
+                  <i class="w-8 text-xl fa-solid fa-phone text-gray-500"></i>
+                </div>
+                <p class="underline"><a href="tel:003214265657">+32 (0)14 26 56 57</a></p>
               </div>
-              <p class="underline"><a href="tel:003214265657">+32 (0)14 26 56 57</a></p>
-            </div>
-            
-            <h3 class="font-bold mt-4 mb-2">Volg ons op sociale media</h3>
-            <div class="flex align-center mb-2">
-              <div>
-                <i class="w-8 text-xl fa-brands fa-square-facebook text-gray-500"></i>
+              
+              <h3 class="font-bold mt-4 mb-2">Volg ons op sociale media</h3>
+              <div class="flex align-center mb-2">
+                <div>
+                  <i class="w-8 text-xl fa-brands fa-square-facebook text-gray-500"></i>
+                </div>
+                <p><a href="https://www.facebook.com/musilene">@musilene</a></p>
               </div>
-              <p><a href="https://www.facebook.com/musilene">@musilene</a></p>
-            </div>
-            <div class="flex align-center mb-2">
-              <div>
-                <i class="w-8 text-xl fa-brands fa-square-instagram text-gray-500"></i>
+              <div class="flex align-center mb-2">
+                <div>
+                  <i class="w-8 text-xl fa-brands fa-square-instagram text-gray-500"></i>
+                </div>
+                <p><a href="https://www.instagram.com/symfonischjeugdorkestmusilene/">@symfonischjeugdorkestmusilene</a></p>
               </div>
-              <p><a href="https://www.instagram.com/symfonischjeugdorkestmusilene/">@symfonischjeugdorkestmusilene</a></p>
             </div>
-          </div>
-          <div class="bg-accent md:w-2/5 md:order-2 order-1 h-80 md:h-auto">
-            <img class="h-full w-full object-cover object-right" src="assets/figures/contact_resized.webp" alt="Cello speler">
-          </div>
+            <div class="bg-accent md:w-2/5 md:order-2 order-1 h-80 md:h-auto">
+              <img class="h-full w-full object-cover object-right" src="assets/figures/contact_resized.webp" alt="Cello speler">
+            </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
   
   <footer class="px-4 py-4 dark:bg-gray-800">
     <div class="p-4 w-full bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">

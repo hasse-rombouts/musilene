@@ -15,4 +15,9 @@
   .bg-accent {
     @apply bg-zinc-500 text-slate-200;
   }
+
+  html{
+    overflow-y: scroll;
+    /* width: 100vw; */
+  }
 }

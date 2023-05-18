@@ -38,7 +38,7 @@ jobs:
         with:
           python-version: "3.10"
       - run: pip install -r rendering/requirements.txt
-      - run: python rendering/build.py
+      - run: python rendering/build.py deploy
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

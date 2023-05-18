@@ -35,7 +35,7 @@ jobs:
       - run: npm install
       - run: pip install -r rendering/requirements.txt
       - run: python rendering/build.py deploy
-      - run: npx tailwindcss -i ./src/assets/styles/input.css -o ./src/dist/output.css
+      - run: npx tailwindcss -i ./src/assets/styles/input.css -o ./build/dist/output.css
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"

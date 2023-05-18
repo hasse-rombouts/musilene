@@ -7,6 +7,7 @@ module.exports = {
         opensans: ["Open Sans", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
         holtwood: ["Holtwood One SC", "serif"],
+        calibri: ["Calibri", "serif"],
       },
 
       animation: {

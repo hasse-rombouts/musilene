@@ -1,5 +1,5 @@
 {
-  "title": "Musilene",
+  "title": "Kakaaaa",
   "concerts": [
     {
       "title": "Aperitiefconcert ism Davidsfonds Westerlo",
@@ -43,5 +43,6 @@
       "addressLine2": "Gevaertlaan 1, Westerlo",
       "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     }
-  ]
+  ],
+  "wie-zijn-wij-tekst": "<a href='nog iets'>teskt</a>"
 }

@@ -28,13 +28,13 @@
               <a href="index.html" class="nav-item">Home</a>
             </li>
             <li>
-              <a href="concerten.html" class="nav-item lg:text-amber-600" aria-current="page">Concerten</a>
-            </li>
-            <li>
               <a href="about.html" class="nav-item">Over Musilene</a>
             </li>
             <li>
               <a href="join-us.html" class="nav-item">Kom Meespelen!</a>
+            </li>
+            <li>
+              <a href="concerten.html" class="nav-item lg:text-amber-600" aria-current="page">Concerten</a>
             </li>
             <li>
               <a href="activities.html" class="nav-item">Activiteiten</a>
@@ -57,12 +57,12 @@
             Elk jaar spelen we een drietal concerten in de omgeving van Westerlo. Ons repertoire is heel gevarieerd en is een mix van klassiek, film- en wereldmuziek, musical en popmuziek. Kom dus zeker eens luisteren, ambiance gegarandeerd!
         </section>
         <section class="w-5/6 md:w-9/12 lg:px-12 m-auto" id="concerten">
-            <div class="grid mt-4 items-center md:py-2 md:px-4 md:bg-white md:text-black md:rounded">
+            <div class="grid mt-4 items-center md:py-2 md:px-4 md:bg-zinc-900 md:rounded rounded-xl shadow">
                 {{ for concert in concerts }}
                     <div class="grid items-center md:grid-cols-3 md:border-b md:my-2 last-of-type:border-b-0">
                         <p class="text-lg font-bold ">{{ concert.title }}</p>
-                        <p class="pl-2  text-slate-300 md:text-slate-800 ">{{ concert.date }}</p>
-                        <div class="pl-2 text-slate-300 md:text-slate-800 mb-4">
+                        <p class="pl-2  text-slate-300  ">{{ concert.date }}</p>
+                        <div class="pl-2 text-slate-300  mb-4">
                             <p>{{ concert.addressLine1 }}</p>
                             <a class="italic underline" href="{{ concert.link }}">{{ concert.addressLine2 }}</a>
                         </div>
@@ -75,10 +75,12 @@
     </div>
 
     <footer class="px-4 py-4 dark:bg-gray-800">
-      <div class="p-4 w-full bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright &copy; <a href="https://musilene.be/" class="hover:underline">Musilene 2023</a>.
+      <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
+        <span class="text-sm text-gray-300 sm:text-center">Copyright &copy; <a href="https://musilene.be/" class="hover:underline">Musilene 2023</a>.
         </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-300 sm:mt-0">
+  
+          
           <li>
             <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i class="fa-brands fa-square-facebook large-black"></i></a>
           </li>

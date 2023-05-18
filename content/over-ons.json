@@ -1,0 +1,36 @@
+{
+  "box1": {
+    "titel": "Geschiedenis en werking",
+    "paragrafen": [
+      "'Musilene' staat voor samen musiceren!",
+      "Musilene werd opgericht in september 1988 door de toenmalige dirigente Mia Schroven. In het begin bestond de groep uit een twintigtal jonge muzikantjes, maar al snel groeide Musilene uit tot een kinder- en jeugdorkest. Tegen 2003 was het jeugdorkest uitgegroeid tot een volwaardig symfonisch orkest en stopte het kinderorkest om zo de focus meer op de jongerengroep te kunnen leggen.",
+      "In 2007 werd Mia opgevolgd door een nieuwe dirigent, Jef Cambré, die het orkest de volgende vijf jaar onder zijn hoede nam. Einde 2013 gaf Jef dan op zijn beurt de dirigeerstok door aan Thomas Geudens en Yanou Vanermen die sindsdien samen het orkest leiden. Op dit moment telt Musilene tussen de 80 en 100 spelende leden, voornamelijk tussen 12 en 30 jaar oud."
+    ]
+  },
+  "box2": {
+    "titel": "Harmonie in muziek en vriendschap",
+    "paragrafen": [
+      "Uiteraard gebeurt er bij Musilene veel meer dan enkel repeteren. Ieder jaar spelen we een drietal concerten in de omgeving van Westerlo. Enkele hoogtepunten van de voorbije jaren waren het promsconcert 'De Nacht van Musilene' ter ere van ons 25-jarig bestaan (2013) en 'Notes of Hope' (2016) dat we organiseerden in samenwerking met de koren Villanella en Villa Cantando. Toen brachten we een groots spektakel met meer dan 200 muzikanten en zangers die samen op het podium stonden. Ook voor november 2023 hebben we weer grootse plannen, want dan blaast het orkest al 35 kaarsjes uit!",
+      "Bij Musilene draait alles om 'samen' en dat is dus niet enkel samen repeteren, maar ook samen dingen doen en vrienden voor het leven maken. Regelmatig organiseren we <a href='activiteiten.html' class='text-amber-500'>{{ nav.activiteiten }}</a> buiten de repetities waaronder filmavonden, workshops, survivals, sport- en spelactiviteiten, uitstapjes en nog zoveel meer. Daarnaast gaan we in de zomervakanties ook op repetitieweekend of op concertreis in het buitenland. Al in 1994 trok Musilene voor het eerst op reis naar Tsjechië. Daarna volgden nog reizen naar Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en Frankrijk."
+    ]
+  },
+  "subtitel": "Muzikale leiding",
+  "cv_box1": {
+    "naam": "Thomas Geudens",
+    "paragrafen": [
+      "Thomas is assistent muziekeducatie aan LUCA School of Arts campus Lemmens te Leuven. Hij is coördinator van de educatieve master muziek & podiumkunsten, waarbinnen hij ook de masterprojecten en vakdidactiek muziek coördineert. Hij werkt daarnaast aan een doctoraat in de Kunsten aan LUCA School of Arts/Geassocieerde Faculteit Kunsten, KU Leuven.",
+      "In 2012 behaalde Thomas in het Lemmensinstituut het masterdiploma muziekpedagogie en het lerarendiploma. In 2014 behaalde hij aan hetzelfde instituut het masterdiploma compositie. In 2016 behaalde hij nog het bachelordiploma directie.",
+      "Thomas is dirigent van Musilene en dirigeerde in het verleden nog enkele andere jeugdorkesten. Hij schreef vele arrangementen voor koor of orkest en er staan enkele composities op zijn naam. Hij schrijft geregeld over muziek- en kunsteducatie en is redacteur Muziek bij het Nederlandse tijdschrift Kunstzone.",
+      " Lees <a class='text-amber-500' href='https://www.linkedin.com/in/thomasgeudens' target='_blank'>hier</a> meer over Thomas."
+    ]
+  },
+  "cv_box2": {
+    "naam": "Yanou Vanermen",
+    "paragrafen": [
+      "Yanou is een echte Musilene-diehard. Reeds als kind speelde ze bij dit orkest en ondertussen is Musilene een vast onderdeel geworden van haar professionele muzikale carrière. Als muzikante is Yanou allround. Naast viool speelt ze ook piano, klarinet en altviool en zingt ze. Je vindt Yanou terug op podia in binnen- en buitenland in diverse bezettingen en in de meest uiteenlopende muziekstijlen. Zo speelde ze onder andere bij The Rodeo Roses (pop/country), AeliXihr (folk), Bentivoglio quintet (klassiek), Arcora (progressieve rock), Orquesta Típica Bélgica (tango), Strijkrover (kleinkunst), The Unlimited Strings en bij Scala & The Kolacny Brothers. Daarnaast is ze werkzaam voor verschillende culturele organisaties en ensembles als freelance muzikante, muziekpedagoge en dirigent.",
+      "Ook internationale projecten zijn haar niet vreemd. Zo deed ze haar muziekpedagogische stage in Malawi, gaf ze in 2017 les in El Salvador voor MusAid en was ze jaren actief betrokken bij de organisatie van internationale conferenties in verschillende Europese landen voor The European Association for Music in Schools (EAS).",
+      "Yanou behaalde de masterdiploma's muziekpedagogie, viool en de specifieke lerarenopleiding aan het Lemmensinstituut te Leuven. Daarnaast heeft ze ook een bachelordiploma Argentijnse tango aan CODARTS Rotterdam op zak.",
+      "Lees meer over Yanou op <a class='text-amber-500' href='https://www.yanouvanermen.be/' target='_blank'>haar website</a>."
+    ]
+  }
+}

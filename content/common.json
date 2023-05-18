@@ -1,0 +1,22 @@
+{
+  "titel": "Musilene",
+  "nav": {
+    "home": "Home",
+    "over_ons": "Over musilene",
+    "kom_meespelen": "Kom meespelen",
+    "concerten": "Concerten",
+    "activiteiten": "Activiteiten",
+    "contact": "Contact",
+    "sponsors": "Sponsors"
+  },
+  "subtitel": "Symfonish Jeugdorkest",
+  "footer": {
+    "tekst": "Copyright &copy; <a href='https://musilene.be/' class='hover:underline'>Musilene 2023</a>."
+  },
+  "links": {
+    "facebook": "https://www.facebook.com/musilene",
+    "instagram": "https://www.instagram.com/symfonischjeugdorkestmusilene/",
+    "mail": "musilene@gmail.com",
+    "adres_repetitie": "https://goo.gl/maps/tfqHFCmq7dDkg3iz8"
+  }
+}

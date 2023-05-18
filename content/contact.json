@@ -1,0 +1,26 @@
+{
+  "subtitel1": "Contact",
+  "subtitel2": "Repetitielokaal",
+  "subtitel3": "Volg ons op sociale media",
+  "contact_adres": {
+    "tekst": "todo",
+    "link": "todo"
+  },
+  "email": "musilene@gmail.com",
+  "tel": {
+    "tekst": "+32 (0)14 26 56 57",
+    "link": "003214265657"
+  },
+  "repetitie_adres": {
+    "tekst": "Boerenkrijglaan 23, 2260 Westerlo",
+    "link": "https://goo.gl/maps/tfqHFCmq7dDkg3iz8"
+  },
+  "facebook": {
+    "tekst": "@musilene",
+    "link": "https://www.facebook.com/musilene"
+  },
+  "instagram": {
+    "tekst": "@symfonischjeugdorkestmusilene",
+    "link": "https://www.instagram.com/symfonischjeugdorkestmusilene"
+  }
+}

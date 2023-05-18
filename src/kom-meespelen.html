@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Musilene</title>
+  <title>{{ titel }}</title>
   <link href="dist/output.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/80fd95a840.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
@@ -16,9 +16,9 @@
   <nav id="navbar"
     class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="/" class="flex items-center">
+      <a href="index.html" class="flex items-center">
         <img src="assets/figures/home-button_resized.webp" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
-        <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">Musilene</span>
+        <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">{{ titel }}</span>
       </a>
       <div class="flex lg:order-2">
         <button id="navbar-toggler" data-collapse-toggle="navbar-sticky" type="button"
@@ -37,25 +37,25 @@
         <ul
           class="flex flex-col p-4 mt-4 mb-4 lg:mb-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="/" class="nav-item">Home</a>
+            <a href="index.html" class="nav-item">{{ nav.home }}</a>
           </li>
           <li>
-            <a href="over-ons.html" class="nav-item">Over Musilene</a>
+            <a href="over-ons.html" class="nav-item">{{ nav.over_ons }}</a>
           </li>
           <li>
-            <a href="kom-meespelen.html" class="nav-item lg:text-amber-600" aria-current="page">Kom Meespelen!</a>
+            <a href="kom-meespelen.html" class="nav-item lg:text-amber-600" aria-current="page">{{ nav.kom_meespelen }}</a>
           </li>
           <li>
-            <a href="concerten.html" class="nav-item">Concerten</a>
+            <a href="concerten.html" class="nav-item">{{ nav.concerten }}</a>
           </li>
           <li>
-            <a href="activiteiten.html" class="nav-item">Activiteiten</a>
+            <a href="activiteiten.html" class="nav-item">{{ nav.activiteiten }}</a>
           </li>
           <li>
-            <a href="contact.html" class="nav-item">Contact</a>
+            <a href="contact.html" class="nav-item">{{ nav.contact }}</a>
           </li>
           <li>
-            <a href="sponsors.html" class="nav-item">Sponsors</a>
+            <a href="sponsors.html" class="nav-item">{{ nav.sponsors }}</a>
           </li>
         </ul>
       </div>
@@ -67,178 +67,141 @@
       <!-- voor wie -->
       <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
         <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen1_resized.webp"
-            alt="Blaas Instrument">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box1.afbeelding }}" als="{{ box1.afbeelding_beschrijving }}">
           <div class="text-center sm:text-left space-y-0.5">
             <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Voor Wie?
+              {{ box1.titel }}
+            </p>
+          </div>
+        </div>
+        <div
+          class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
+          {{ for paragraph in box1.paragrafen }}
+            <p>{{ paragraph }}</p>
+          {{ endfor }}
+
+        </div>
+      </div>
+
+      <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+        <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box2.afbeelding }}" als="{{ box2.afbeelding_beschrijving }}">
+          <div class="text-center sm:text-left space-y-0.5">
+            <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+              {{ box2.titel }}
+            </p>
+          </div>
+        </div>
+        <div
+          class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
+          {{ for paragraph in box2.paragrafen }}
+            <p>{{ paragraph }}</p>
+          {{ endfor }}
+
+        </div>
+      </div>
+
+      <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
+        <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box3.afbeelding }}" als="{{ box3.afbeelding_beschrijving }}">
+          <div class="text-center sm:text-left space-y-0.5">
+            <p class="text-lg lg:text-xl text-slate-200 font-semibold">
+              {{ box3.titel }}
             </p>
           </div>
         </div>
         <div
           class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
           <p>
-            Musilene is voor alle jonge muzikanten die graag samen muziek willen maken. De meeste van onze muzikanten
-            zijn tussen 12 en 30 jaar oud. Om mee te spelen in het orkest moet je minstens 3 jaar instrumentles achter
-            de rug hebben of een vergelijkbaar niveau hebben.
-          </p>
-          <p>
-            Musilene is een symfonisch orkest, dat wil zeggen dat zowel strijkers, houtblazers, koperblazers,
-            slagwerkers als harp en piano welkom zijn. Aangezien er niet zo heel veel symfonische jeugdorkesten zijn,
-            komen onze muzikanten van heinde en verre om mee te spelen in het orkest.
+            {{ box3.tekst_voor_lijst }}
+          <ul class="pl-8 pb-3" style="list-style-type:square">
+            {{ for instrument in box3.wanted_instrumenten }}
+              <li>{{ instrument }}</li>
+            {{ endfor }}
+          </ul>
+          {{ box3.tekst_na_lijst }}
           </p>
 
         </div>
       </div>
-      <!-- waar en wanneer -->
+
       <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
         <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen2_resized.webp"
-            alt="Dirigent Thomas Geudens">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box4.afbeelding }}" als="{{ box4.afbeelding_beschrijving }}">
           <div class="text-center sm:text-left space-y-0.5">
             <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Waar & Wanneer?
+              {{ box4.titel }}
             </p>
           </div>
         </div>
         <div
           class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
-          <p>
-            We repeteren iedere zaterdag van 17u00 tot 19u00 in ons repetitielokaal in de Kunstencampus van Westerlo,
-            <a class="text-amber-500" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank">Boerenkrijglaan
-              23</a>. Een repetitiejaar loopt vanaf het laatste weekend van augustus tot en met ons lenteconcert eind
-            mei.
-          </p>
-          <p>
-            Wie graag wil meespelen mag altijd eerst een paar keer vrijblijvend komen proberen. Als je er eens een
-            repetitie niet kan zijn, dan stuur je op voorhand een mailtje naar musilene@gmail.com. Op die manier kunnen
-            wij de repetities het beste plannen.
-          </p>
+          {{ for paragraph in box4.paragrafen }}
+            <p>{{ paragraph }}</p>
+          {{ endfor }}
+
         </div>
       </div>
-      <!-- most-wanted instrumenten -->
+
       <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
         <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen3_resized.webp"
-            alt="Dirigent Thomas Geudens">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box5.afbeelding }}" als="{{ box5.afbeelding_beschrijving }}">
           <div class="text-center sm:text-left space-y-0.5">
             <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Most Wanted Instrumenten
+              {{ box5.titel }}
             </p>
           </div>
         </div>
         <div
-          class=" p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
-          <p>
-            Uiteraard zijn alle nieuwe muzikanten van harte welkom, maar sommige instrumenten staan toch op onze
-            'most-wanted' lijst. Speel je:
-          <ul class="pl-8 pb-3" style="list-style-type:square">
-            <li>hobo</li>
-            <li>trombone</li>
-            <li>tuba</li>
-            <li>contrabas</li>
-            <li>altviool</li>
-          </ul>
-          aarzel dan zeker niet om mee te komen spelen!
-          </p>
+          class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
+          {{ for paragraph in box5.paragrafen }}
+            <p>{{ paragraph }}</p>
+          {{ endfor }}
+
         </div>
       </div>
-      <!-- werkwijze -->
+
       <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
         <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen4_resized.webp"
-            alt="Dirigent Thomas Geudens">
+          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/{{ box6.afbeelding }}" als="{{ box6.afbeelding_beschrijving }}">
           <div class="text-center sm:text-left space-y-0.5">
             <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Werkwijze
+              {{ box6.titel }}
             </p>
           </div>
         </div>
         <div
-          class=" p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
-          <p>
-            Doordat er twee dirigenten voor het orkest staan, heeft één van hen steeds de handen vrij om ook individuele
-            muzikanten te helpen tijdens de repetities. Daarnaast splitsen we het orkest regelmatig op in kleinere
-            groepjes zodat we sneller, meer in detail en meer instrumenttechnisch kunnen werken aan het repertoire.
-          </p>
-          <p>
-            Alle muziekstukken arrangeren we zelf voor het orkest, zodat we deze volledig kunnen afstemmen op het niveau
-            van onze muzikanten en de samenstelling van het orkest. Het repertoire is steeds heel gevarieerd: zowel
-            klassiek als wereldmuziek, pop- en rockmuziek, musical en film komen op de pupiter terecht. We verkennen
-            zoveel mogelijk verschillende stijlen en houden daarbij uiteraard ook rekening met de inbreng van onze
-            muzikanten. Voor elk wat wils dus.
-          </p>
-        </div>
-      </div>
-      <!-- concerten -->
-      <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
-        <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen5_resized.webp"
-            alt="Dirigent Thomas Geudens">
-          <div class="text-center sm:text-left space-y-0.5">
-            <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Concerten
-            </p>
-          </div>
-        </div>
-        <div
-          class=" p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
-          <p>
-            Een drietal keer per jaar geven we een concert in de buurt van Westerlo. Aangezien het spelen in een orkest
-            een groepsgebeuren is, verwachten we dat muzikanten minstens 2/3 van de repetities aanwezig zijn om een
-            concert te kunnen meespelen. Kan je eens niet aanwezig zijn bij een repetitie is dat geen enkel probleem,
-            maar stuur ons dan steeds op voorhand een mailtje zodat wij de repetities vlot kunnen inplannen.
-          </p>
-        </div>
-      </div>
-      <!-- Alternatieve leercontext -->
-      <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex mt-8 md:mt-12">
-        <div class="p-4 md:px-8 lg:px-12 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 rounded-t-xl">
-          <img class="block mx-auto h-24 rounded-xl sm:mx-0 sm:shrink-0" src="assets/figures/meespelen6_resized.webp"
-            alt="Dirigent Thomas Geudens">
-          <div class="text-center sm:text-left space-y-0.5">
-            <p class="text-lg lg:text-xl text-slate-200 font-semibold">
-              Alternatieve leercontext
-            </p>
-          </div>
-        </div>
-        <div class=" p-4 md:p-8 lg:p-12 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
-          <p>
-            Alternatieve leercontext is een manier om de orkestrepetities van Musilene mee te laten tellen als les
-            ensemble of samenspel van de muziekacademie. Ook hiervoor kan je bij Musilene terecht. Momenteel werken we
-            samen met de academies van Geel, Mol, Herentals, Herenthout en Lier.
-          </p>
-          <p>
-            Informeer je bij je academie voor meer info of stuur ons een berichtje.
-          </p>
+          class="p-4 md:px-8 md:py-6 lg:px-12 lg:py-8 text-justify text-slate-100 bg-zinc-900 rounded-xl grow space-y-3">
+          {{ for paragraph in box6.paragrafen }}
+            <p>{{ paragraph }}</p>
+          {{ endfor }}
+
         </div>
       </div>
     </section>
   </section>
 
-
-  <footer class="px-4 py-4 dark:bg-gray-800">
+  <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
-      <span class="text-sm text-gray-300 sm:text-center">Copyright &copy; <a href="https://musilene.be/"
-          class="hover:underline">Musilene 2023</a>.
+      <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-300 sm:mt-0">
 
 
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.facebook }}" target="_blank"><i
               class="fa-brands fa-square-facebook large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.instagram.com/symfonischjeugdorkestmusilene/"
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.instagram }}"
             target="_blank"><i class="fa-brands fa-square-instagram large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:musilene@gmail.com" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:{{ links.mail }}" target="_blank"><i
               class="fa-solid fa-envelope large-black"></i></i></a>
         </li>
         <li>
-          <a class="md:mr-6 sm:text-lg" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank"><i
+          <a class="md:mr-6 sm:text-lg" href="{{ links.adres_repetitie }}" target="_blank"><i
               class="fa-solid fa-location-dot large-black"></i></a>
         </li>
       </ul>

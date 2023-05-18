@@ -1,0 +1,54 @@
+{
+  "box1": {
+    "afbeelding": "meespelen1_resized.webp",
+    "afbeelding_beschrijving": "Blaasinstrument",
+    "titel": "Voor Wie?",
+    "paragrafen": [
+      "Musilene is voor alle jonge muzikanten die graag samen muziek willen maken. De meeste van onze muzikanten zijn tussen 12 en 30 jaar oud. Om mee te spelen in het orkest moet je minstens 3 jaar instrumentles achter de rug hebben of een vergelijkbaar niveau hebben.",
+      "Musilene is een symfonisch orkest, dat wil zeggen dat zowel strijkers, houtblazers, koperblazers, slagwerkers als harp en piano welkom zijn. Aangezien er niet zo heel veel symfonische jeugdorkesten zijn, komen onze muzikanten van heinde en verre om mee te spelen in het orkest."
+    ]
+  },
+  "box2": {
+    "afbeelding": "meespelen2_resized.webp",
+    "afbeelding_beschrijving": "Slagwerk",
+    "titel": "Waar & Wanneer?",
+    "paragrafen": [
+      "We repeteren iedere zaterdag van 17u00 tot 19u00 in ons repetitielokaal in de Kunstencampus van Westerlo, <a class='text-amber-500' href='https://goo.gl/maps/tfqHFCmq7dDkg3iz8' target='_blank'>Boerenkrijglaan 23</a>. Een repetitiejaar loopt vanaf het laatste weekend van augustus tot en met ons lenteconcert eind mei.",
+      "Wie graag wil meespelen mag altijd eerst een paar keer vrijblijvend komen proberen. Als je er eens een repetitie niet kan zijn, dan stuur je op voorhand een mailtje naar <a class='text-amber-500' href='mailto:musilene@gmail.com'>musilene@gmail.com</a>. Op die manier kunnen wij de repetities het beste plannen."
+    ]
+  },
+  "box3": {
+    "afbeelding": "meespelen3_resized.webp",
+    "afbeelding_beschrijving": "Slagwerk",
+    "titel": "Most Wanted Instrumenten",
+    "tekst_voor_lijst": "Uiteraard zijn alle nieuwe muzikanten van harte welkom, maar sommige instrumenten staan toch op onze 'most-wanted' lijst. Speel je:",
+    "wanted_instrumenten": ["hobo", "trombone", "tuba", "contrabas", "altiool"],
+    "tekst_na_lijst": "aarzel dan zeker niet om mee te komen spelen!"
+  },
+  "box4": {
+    "afbeelding": "meespelen4_resized.webp",
+    "afbeelding_beschrijving": "Cello",
+    "titel": "Werkwijze",
+    "paragrafen": [
+      "Doordat er twee dirigenten voor het orkest staan, heeft één van hen steeds de handen vrij om ook individuele muzikanten te helpen tijdens de repetities. Daarnaast splitsen we het orkest regelmatig op in kleinere groepjes zodat we sneller, meer in detail en meer instrumenttechnisch kunnen werken aan het repertoire.",
+      "Alle muziekstukken arrangeren we zelf voor het orkest, zodat we deze volledig kunnen afstemmen op het niveau van onze muzikanten en de samenstelling van het orkest. Het repertoire is steeds heel gevarieerd: zowel klassiek als wereldmuziek, pop- en rockmuziek, musical en film komen op de pupiter terecht. We verkennen zoveel mogelijk verschillende stijlen en houden daarbij uiteraard ook rekening met de inbreng van onze muzikanten. Voor elk wat wils dus."
+    ]
+  },
+  "box5": {
+    "afbeelding": "meespelen5_resized.webp",
+    "afbeelding_beschrijving": "Dirigent",
+    "titel": "Concerten",
+    "paragrafen": [
+      "Een drietal keer per jaar geven we een concert in de buurt van Westerlo. Aangezien het spelen in een orkest een groepsgebeuren is, verwachten we dat muzikanten minstens 2/3 van de repetities aanwezig zijn om een concert te kunnen meespelen. Kan je eens niet aanwezig zijn bij een repetitie is dat geen enkel probleem, maar stuur ons dan steeds op voorhand een mailtje zodat wij de repetities vlot kunnen inplannen."
+    ]
+  },
+  "box6": {
+    "afbeelding": "meespelen6_resized.webp",
+    "afbeelding_beschrijving": "Viool",
+    "titel": "Alternative leercontext",
+    "paragrafen": [
+      "Alternatieve leercontext is een manier om de orkestrepetities van Musilene mee te laten tellen als les ensemble of samenspel van de muziekacademie. Ook hiervoor kan je bij Musilene terecht. Momenteel werken we samen met de academies van Geel, Mol, Herentals, Herenthout en Lier.",
+      "Informeer je bij je academie voor meer info of stuur ons een berichtje."
+    ]
+  }
+}

@@ -16,7 +16,7 @@
   <nav id="navbar"
     class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="/" class="flex items-center">
+      <a href="index.html" class="flex items-center">
         <img src="assets/figures/home-button_resized.webp" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
         <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">Musilene</span>
       </a>
@@ -37,71 +37,31 @@
         <ul
           class="flex flex-col p-4 mt-4 mb-4 lg:mb-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="/" class="nav-item">Home</a>
+            <a href="index.html" class="nav-item">{{ nav.home }}</a>
           </li>
           <li>
-            <a href="over-ons.html" class="nav-item lg:text-amber-600" aria-current="page">Over Musilene</a>
+            <a href="over-ons.html" class="nav-item lg:text-amber-600" aria-current="page">{{ nav.over_ons }}</a>
           </li>
           <li>
-            <a href="kom-meespelen.html" class="nav-item">Kom Meespelen!</a>
+            <a href="kom-meespelen.html" class="nav-item">{{ nav.kom_meespelen }}</a>
           </li>
           <li>
-            <a href="concerten.html" class="nav-item">Concerten</a>
+            <a href="concerten.html" class="nav-item">{{ nav.concerten }}</a>
           </li>
           <li>
-            <a href="activiteiten.html" class="nav-item">Activiteiten</a>
+            <a href="activiteiten.html" class="nav-item">{{ nav.activiteiten }}</a>
           </li>
           <li>
-            <a href="contact.html" class="nav-item">Contact</a>
+            <a href="contact.html" class="nav-item">{{ nav.contact }}</a>
           </li>
           <li>
-            <a href="sponsors.html" class="nav-item">Sponsors</a>
+            <a href="sponsors.html" class="nav-item">{{ nav.sponsors }}</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- old version -->
-  <!-- <section class="xl:container grid grid-cols-1 lg:grid-cols-2">
-    <div class="w-full h-full">
-      <img class="object-cover h-full w-full shadow" src="assets/figures/about1_resized.webp" alt="Musilene Jeugdorkest">
-    </div>
-    <div class="flex justify-center text-justify">
-      <div class="space-y-6 p-8">
-        <h1 class="text-2xl xl:text-3xl text-left">Geschiedenis en Werking</h1>
-        <p>
-          'Musilene' staat voor samen musiceren! 
-        </p>
-        <p>
-          Musilene werd opgericht in september 1988 door de toenmalige dirigente Mia Schroven. In het begin bestond de groep uit een twintigtal jonge muzikantjes, maar al snel groeide Musilene uit tot een kinder- en jeugdorkest. Tegen 2003 was het jeugdorkest uitgegroeid tot een volwaardig symfonisch orkest en stopte het kinderorkest om zo de focus meer op de jongerengroep te kunnen leggen. 
-        </p>
-        <p>
-          In 2007 werd Mia opgevolgd door een nieuwe dirigent, Jef Cambré, die het orkest de volgende vijf jaar onder zijn hoede nam. Einde 2013 gaf Jef dan op zijn beurt de dirigeerstok door aan Thomas Geudens en Yanou Vanermen die sindsdien samen het orkest leiden. Op dit moment telt Musilene tussen de 80 en 100 spelende leden, voornamelijk tussen 12 en 30 jaar oud.
-        </p>
-      </div>
-    </div>
-    <div class="flex justify-center text-justify">
-      <div class="my-auto space-y-6 p-8">
-        <h1 class="text-2xl xl:text-3xl text-left">Lorem ipsum</h1>
-        <p>
-          Uiteraard gebeurt er bij Musilene veel meer dan enkel repeteren. Ieder jaar spelen we een drietal concerten in de omgeving van Westerlo. Enkele hoogtepunten van de voorbije jaren waren het promsconcert 'De Nacht van Musilene' ter ere van ons 25-jarig bestaan (2013) en 'Notes of Hope' (2016) dat we organiseerden in samenwerking met de koren Villanella en Villa Cantando. Toen brachten we een groots spektakel met meer dan 200 muzikanten en zangers die samen op het podium stonden. Ook voor november 2023 hebben we weer grootse plannen, want dan blaast het orkest al 35 kaarsjes uit!
-        </p>
-      </div>
-    </div>
-    <div class="w-full h-full">
-      <img class="object-cover h-full w-full shadow" src="assets/figures/about2_resized.webp" alt="Musilene Jeugdorkest">
-    </div>
-    <img class="hidden md:block object-cover h-full w-full shadow" src="assets/figures/about3_resized.webp" alt="Harp speelster">
-    <div class="flex justify-center text-justify">
-      <div class="my-auto space-y-6 p-8">
-        <h1 class="text-2xl xl:text-3xl text-left">Doloret sit amet</h1>
-        <p>
-          Bij Musilene draait alles om 'samen' en dat is dus niet enkel samen repeteren, maar ook samen dingen doen en vrienden voor het leven maken. Regelmatig organiseren we activiteiten buiten de repetities waaronder filmavonden, workshops, survivals, sport- en spelactiviteiten, uitstapjes en nog zoveel meer. Daarnaast gaan we in de zomervakanties ook op repetitieweekend of op concertreis in het buitenland. Al in 1994 trok Musilene voor het eerst op reis naar Tsjechië. Daarna volgden nog reizen naar Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en Frankrijk. 
-        </p>
-      </div>
-    </div>
-  </section> -->
 
   <!-- new version -->
   <section class="xl:container grid grid-cols-1 lg:grid-cols-2">
@@ -112,45 +72,19 @@
     </div>
     <div class="flex justify-center text-justify">
       <div class="space-y-6 p-8">
-        <h1 class="text-2xl xl:text-3xl text-left">Geschiedenis en werking</h1>
-        <p>
-          'Musilene' staat voor samen musiceren!
-        </p>
-        <p>
-          Musilene werd opgericht in september 1988 door de toenmalige dirigente Mia Schroven. In het begin bestond de
-          groep uit een twintigtal jonge muzikantjes, maar al snel groeide Musilene uit tot een kinder- en jeugdorkest.
-          Tegen 2003 was het jeugdorkest uitgegroeid tot een volwaardig symfonisch orkest en stopte het kinderorkest om
-          zo de focus meer op de jongerengroep te kunnen leggen.
-        </p>
-        <p>
-          In 2007 werd Mia opgevolgd door een nieuwe dirigent, Jef Cambré, die het orkest de volgende vijf jaar onder
-          zijn hoede nam. Einde 2013 gaf Jef dan op zijn beurt de dirigeerstok door aan Thomas Geudens en Yanou Vanermen
-          die sindsdien samen het orkest leiden. Op dit moment telt Musilene tussen de 80 en 100 spelende leden,
-          voornamelijk tussen 12 en 30 jaar oud.
-        </p>
+        <h1 class="text-2xl xl:text-3xl text-left">{{ box1.titel }}</h1>
+        {{ for paragraph in box1.paragrafen }}
+          <p>{{ paragraph }}</p>
+        {{ endfor }}
       </div>
     </div>
     <!-- part 2 -->
     <div class="order-2 lg:order-1 flex justify-center text-justify">
       <div class="my-auto space-y-6 p-8">
-        <h1 class="text-2xl xl:text-3xl text-left">Harmonie in muziek en vriendschap</h1>
-        <p>
-          Uiteraard gebeurt er bij Musilene veel meer dan enkel repeteren. Ieder jaar spelen we een drietal concerten in
-          de omgeving van Westerlo. Enkele hoogtepunten van de voorbije jaren waren het promsconcert 'De Nacht van
-          Musilene' ter ere van ons 25-jarig bestaan (2013) en 'Notes of Hope' (2016) dat we organiseerden in
-          samenwerking met de koren Villanella en Villa Cantando. Toen brachten we een groots spektakel met meer dan 200
-          muzikanten en zangers die samen op het podium stonden. Ook voor november 2023 hebben we weer grootse plannen,
-          want dan blaast het orkest al 35 kaarsjes uit!
-        </p>
-        <p>
-          Bij Musilene draait alles om 'samen' en dat is dus niet enkel samen repeteren, maar ook samen dingen doen en
-          vrienden voor het leven maken. Regelmatig organiseren we <a href="activiteiten.html"
-            class="text-amber-500">activiteiten</a> buiten de repetities waaronder filmavonden, workshops, survivals,
-          sport- en spelactiviteiten, uitstapjes en nog zoveel meer. Daarnaast gaan we in de zomervakanties ook op
-          repetitieweekend of op concertreis in het buitenland. Al in 1994 trok Musilene voor het eerst op reis naar
-          Tsjechië. Daarna volgden nog reizen naar Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en
-          Frankrijk.
-        </p>
+        <h1 class="text-2xl xl:text-3xl text-left">{{ box2.titel }}</h1>
+        {{ for paragraph in box1.paragrafen }}
+          <p>{{ paragraph }}</p>
+        {{ endfor }}
       </div>
     </div>
     <div class="order-1 lg:order-2 w-full h-full">
@@ -160,7 +94,7 @@
 
   <section class="container md:px-16 sm:px-8 px-4 mb-16 mt-8">
     <section class="text-justify">
-      <h3 class="text-2xl xl:text-3xl py-4 px-4 sm:px-4">Muzikale leiding</h3>
+      <h3 class="text-2xl xl:text-3xl py-4 px-4 sm:px-4">{{ subtitel }}</h3>
       <div class="mx-auto grid lg:grid-cols-2 gap-x-16 gap-y-8">
         <!-- Thomas -->
         <div class="mx-auto rounded-xl shadow space-y-2 bg-zinc-900 flex-col flex">
@@ -169,31 +103,14 @@
               alt="Dirigent Thomas Geudens">
             <div class="text-center sm:text-left space-y-0.5">
               <p class="text-lg text-slate-200 font-semibold">
-                Thomas Geudens
+                {{ cv_box1.naam }}
               </p>
             </div>
           </div>
           <div class="p-4 md:p-8 text-justify text-gray-200 rounded-xl grow space-y-2">
-            <p>
-              Thomas is assistent muziekeducatie aan LUCA School of Arts campus Lemmens te Leuven. Hij is coördinator
-              van de educatieve master muziek & podiumkunsten, waarbinnen hij ook de masterprojecten en vakdidactiek
-              muziek coördineert. Hij werkt daarnaast aan een doctoraat in de Kunsten aan LUCA School of
-              Arts/Geassocieerde Faculteit Kunsten, KU Leuven.
-            </p>
-            <p>
-              In 2012 behaalde Thomas in het Lemmensinstituut het masterdiploma muziekpedagogie en het lerarendiploma.
-              In 2014 behaalde hij aan hetzelfde instituut het masterdiploma compositie. In 2016 behaalde hij nog het
-              bachelordiploma directie.
-            </p>
-            <p>
-              Thomas is dirigent van Musilene en dirigeerde in het verleden nog enkele andere jeugdorkesten. Hij schreef
-              vele arrangementen voor koor of orkest en er staan enkele composities op zijn naam. Hij schrijft geregeld
-              over muziek- en kunsteducatie en is redacteur Muziek bij het Nederlandse tijdschrift Kunstzone.
-            </p>
-            <p>
-              Lees <a class="text-amber-500" href="https://www.linkedin.com/in/thomasgeudens" target="_blank">hier</a>
-              meer over Thomas.
-            </p>
+            {{ for paragraph in cv_box1.paragrafen }}
+              <p>{{ paragraph }}</p>
+            {{ endfor }}
           </div>
         </div>
         <!-- Yanou -->
@@ -203,64 +120,41 @@
               alt="Concertmeester Yanou Vanermen">
             <div class="text-center sm:text-left space-y-0.5">
               <p class="text-lg text-slate-200 font-semibold">
-                Yanou Vanermen
+                {{ cv_box2.naam }}
               </p>
             </div>
           </div>
           <div class="p-4 md:p-8 text-justify text-gray-200 rounded-xl grow space-y-2">
-            <p>
-              Yanou is een echte Musilene-diehard. Reeds als kind speelde ze bij dit orkest en ondertussen is Musilene
-              een vast onderdeel geworden van haar professionele muzikale carrière. Als muzikante is Yanou allround.
-              Naast viool speelt ze ook piano, klarinet en altviool en zingt ze. Je vindt Yanou terug op podia in
-              binnen- en buitenland in diverse bezettingen en in de meest uiteenlopende muziekstijlen. Zo speelde ze
-              onder andere bij The Rodeo Roses (pop/country), AeliXihr (folk), Bentivoglio quintet (klassiek), Arcora
-              (progressieve rock), Orquesta Típica Bélgica (tango), Strijkrover (kleinkunst), The Unlimited Strings en
-              bij Scala & The Kolacny Brothers. Daarnaast is ze werkzaam voor verschillende culturele organisaties en
-              ensembles als freelance muzikante, muziekpedagoge en dirigent.
-            </p>
-            <p>
-              Ook internationale projecten zijn haar niet vreemd. Zo deed ze haar muziekpedagogische stage in Malawi,
-              gaf ze in 2017 les in El Salvador voor MusAid en was ze jaren actief betrokken bij de organisatie van
-              internationale conferenties in verschillende Europese landen voor The European Association for Music in
-              Schools (EAS).
-            </p>
-            <p>
-              Yanou behaalde de masterdiploma's muziekpedagogie, viool en de specifieke lerarenopleiding aan het
-              Lemmensinstituut te Leuven. Daarnaast heeft ze ook een bachelordiploma Argentijnse tango aan CODARTS
-              Rotterdam op zak.
-            </p>
-            <p>
-              Lees meer over Yanou op <a class="text-amber-500" href="https://www.yanouvanermen.be/"
-                target="_blank">haar website</a>.
-            </p>
+            {{ for paragraph in cv_box2.paragrafen }}
+              <p>{{ paragraph }}</p>
+            {{ endfor }}
           </div>
         </div>
       </div>
     </section>
   </section>
 
-  <footer class="px-4 py-4 dark:bg-gray-800">
+  <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
-      <span class="text-sm text-gray-300 sm:text-center">Copyright &copy; <a href="https://musilene.be/"
-          class="hover:underline">Musilene 2023</a>.
+      <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-300 sm:mt-0">
 
 
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.facebook }}" target="_blank"><i
               class="fa-brands fa-square-facebook large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.instagram.com/symfonischjeugdorkestmusilene/"
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.instagram }}"
             target="_blank"><i class="fa-brands fa-square-instagram large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:musilene@gmail.com" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:{{ links.mail }}" target="_blank"><i
               class="fa-solid fa-envelope large-black"></i></i></a>
         </li>
         <li>
-          <a class="md:mr-6 sm:text-lg" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank"><i
+          <a class="md:mr-6 sm:text-lg" href="{{ links.adres_repetitie }}" target="_blank"><i
               class="fa-solid fa-location-dot large-black"></i></a>
         </li>
       </ul>

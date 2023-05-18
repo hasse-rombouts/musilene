@@ -16,7 +16,7 @@
   <nav id="navbar"
     class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="/" class="flex items-center">
+      <a href="index.html" class="flex items-center">
         <img src="assets/figures/home-button_resized.webp" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
         <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">Musilene</span>
       </a>
@@ -37,25 +37,25 @@
         <ul
           class="flex flex-col p-4 mt-4 mb-4 lg:mb-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="/" class="nav-item">Home</a>
+            <a href="index.html" class="nav-item">{{ nav.home }}</a>
           </li>
           <li>
-            <a href="over-ons.html" class="nav-item">Over Musilene</a>
+            <a href="over-ons.html" class="nav-item">{{ nav.over_ons }}</a>
           </li>
           <li>
-            <a href="kom-meespelen.html" class="nav-item">Kom Meespelen!</a>
+            <a href="kom-meespelen.html" class="nav-item">{{ nav.kom_meespelen }}</a>
           </li>
           <li>
-            <a href="concerten.html" class="nav-item">Concerten</a>
+            <a href="concerten.html" class="nav-item">{{ nav.concerten }}</a>
           </li>
           <li>
-            <a href="activiteiten.html" class="nav-item">Activiteiten</a>
+            <a href="activiteiten.html" class="nav-item">{{ nav.activiteiten }}</a>
           </li>
           <li>
-            <a href="contact.html" class="nav-item">Contact</a>
+            <a href="contact.html" class="nav-item">{{ nav.contact }}</a>
           </li>
           <li>
-            <a href="" class="nav-item lg:text-amber-600" aria-current="page">Sponsors</a>
+            <a href="" class="nav-item lg:text-amber-600" aria-current="page">{{ nav.sponsors }}</a>
           </li>
         </ul>
       </div>
@@ -64,54 +64,47 @@
 
   <section class="container mx-auto mb-16">
     <section class="px-4 w-5/6 md:w-9/12 lg:px-8 m-auto">
-      <h1 class="text-3xl md:text-5xl mt-16 text-center">Hoofdsponsors</h1>
+      <h1 class="text-3xl md:text-5xl mt-16 text-center"> {{ subtitel1 }}</h1>
       <!-- kaneka -->
       <div class="mx-auto rounded-xl shadow flex-row flex mt-8 bg-white h-48">
-        <div class="basis-1/2 p-4 flex">
-          <img class="rounded-xl m-auto object-contain h-full w-auto" src="assets/figures/sponsors/kaneka.webp"
-            alt="Logo Kaneka">
-        </div>
-        <div class="basis-1/2 p-4 flex">
-          <img class="rounded-xl m-auto object-contain h-full w-auto"
-            src="assets/figures/sponsors/jeugdwerking-westerlo.png" alt="Logo Jeugdwerking Westerlo">
-        </div>
+        {{ for sponsor in hoofdsponsors }}
+          <div class="basis-1/2 p-4 flex">
+            <img class="rounded-xl m-auto object-contain h-full w-auto" src="assets/figures/sponsors/{{ sponsor }}">
+          </div>
+        {{ endfor }}
       </div>
-      <h1 class="text-3xl md:text-5xl mt-16 text-center">Met dank aan:</h1>
+      <h1 class="text-3xl md:text-5xl mt-16 text-center">{{ subtitel1 }}</h1>
       <!-- vlamo -->
       <div class="mx-auto rounded-xl shadow flex-row flex mt-8 bg-white h-48 ">
-        <div class="basis-1/2 p-4 flex">
-          <img class="rounded-xl m-auto object-contain h-full w-auto" src="assets/figures/sponsors/davidsfonds.svg"
-            alt="Logo Davidsfonds Westerlo">
-        </div>
-        <div class="basis-1/2 p-4 flex">
-          <img class="rounded-xl m-auto object-contain h-full w-auto"
-            src="assets/figures/sponsors/Vlamo West-Vlaanderen.jpg" alt="Logo Vlamo West-Vlaanderen">
-        </div>
+        {{ for sponsor in met_dank_aan }}
+          <div class="basis-1/2 p-4">
+            <img class="rounded-xl m-auto object-contain h-full w-auto" src="assets/figures/sponsors/{{ sponsor }}">
+          </div>
+        {{ endfor }}
       </div>
     </section>
   </section>
   <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
-      <span class="text-sm text-gray-300 sm:text-center">Copyright &copy; <a href="https://musilene.be/"
-          class="hover:underline">Musilene 2023</a>.
+      <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-300 sm:mt-0">
 
 
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.facebook }}" target="_blank"><i
               class="fa-brands fa-square-facebook large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.instagram.com/symfonischjeugdorkestmusilene/"
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.instagram }}"
             target="_blank"><i class="fa-brands fa-square-instagram large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:musilene@gmail.com" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:{{ links.mail }}" target="_blank"><i
               class="fa-solid fa-envelope large-black"></i></i></a>
         </li>
         <li>
-          <a class="md:mr-6 sm:text-lg" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank"><i
+          <a class="md:mr-6 sm:text-lg" href="{{ links.adres_repetitie }}" target="_blank"><i
               class="fa-solid fa-location-dot large-black"></i></a>
         </li>
       </ul>

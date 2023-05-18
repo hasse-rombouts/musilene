@@ -1,0 +1,38 @@
+{
+  "flyer": {
+    "titel": "Kom naar ons luisteren op ons volgende concert:",
+    "tekst": "Kaarten kan je reserveren via <a class='text-amber-500' href='mailto:musilene@gmail.com'>musilene@gmail.com</a>of via <a class='text-amber-500' href='https://docs.google.com/forms/d/e/1FAIpQLSeVBpeOCE53U_nZEFuNsDkaYKxWOAAheUrEUlEN7m_dnUavKw/viewform'>deze link</a>."
+  },
+  "box1": {
+    "titel": "Wie zijn wij?",
+    "tekst": "Musilene is een symfonisch orkest voor jongeren die graag samen muziek maken. De groep bestaat op dit moment uit een 90-tal muzikanten. Zowel strijkers als hout- en koperblazers, slagwerkers, piano en harp zijn vertegenwoordigd in het orkest.",
+    "link": {
+      "adres": "kom-meespelen.html",
+      "tekst": "Meer info"
+    }
+  },
+  "box2": {
+    "titel": "Repetities",
+    "tekst": "We repeteren elke zaterdag van 17u00 tot 19u00 in de Kunstencampus van Westerlo (Boerenkrijglaan 23). De repetities staan onder de professionele leiding van Thomas Geudens en Yanou Vanermen.",
+    "link": {
+      "adres": "kom-meespelen.html",
+      "tekst": "Meer info"
+    }
+  },
+  "box3": {
+    "titel": "Concerten",
+    "tekst": "Elk jaar spelen we een drietal concerten in de omgeving van Westerlo. Ons repertoire is heel gevarieerd en is een mix van klassiek, film- en wereldmuziek, musical en popmuziek. Kom dus zeker eens luisteren, ambiance gegarandeerd!",
+    "link": {
+      "adres": "concerten.html",
+      "tekst": "Meer info"
+    }
+  },
+  "box4": {
+    "titel": "Activiteiten",
+    "tekst": "Ook naast de repetities doen we nog veel samen, zoals filmavonden, survivals, workshops en sport- en spelactiviteiten. Wie zin heeft kan in de zomervakanties mee op repetitieweekend of concertreis in het buitenland.",
+    "link": {
+      "adres": "activiteiten.html",
+      "tekst": "Meer info"
+    }
+  }
+}

@@ -2,4 +2,5 @@ import re
 
 
 def remove_file_extensions(content: str):
-    return re.sub(r'href="([^"]+).html"', r'href="\1"', content)
+    content = re.sub(r'href="([^"]+).html"', r'href="\1"', content)
+    return re.sub(r'href="index.html"', r'href="index.html"', content)

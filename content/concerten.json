@@ -1,5 +1,7 @@
 {
-  "title": "Musilene",
+  "subtitel": "Agenda",
+  "tekst": "Elk jaar spelen we een drietal concerten in de omgeving van Westerlo. Ons repertoire is heel gevarieerd en is een mix van klassiek, film- en wereldmuziek, musical en popmuziek. Kom dus zeker eens luisteren, ambiance gegarandeerd!",
+  "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a class='text-amber-500' href='mailto:musilene@gmail.com'>musilene@gmail.com</a> of via <a target='_blank' class='text-amber-500' href='https://docs.google.com/forms/d/e/1FAIpQLSeVBpeOCE53U_nZEFuNsDkaYKxWOAAheUrEUlEN7m_dnUavKw/viewform'>deze link</a>.",
   "concerts": [
     {
       "title": "Aperitiefconcert ism Davidsfonds Westerlo",
@@ -43,6 +45,5 @@
       "addressLine2": "Gevaertlaan 1, Westerlo",
       "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     }
-  ],
-  "wie-zijn-wij-tekst": "<a href='nog iets'>teskt</a>"
+  ]
 }

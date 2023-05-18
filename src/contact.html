@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{{ titel }}</title>
   <link href="dist/output.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/80fd95a840.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
@@ -15,9 +15,9 @@
   <nav id="navbar"
     class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="/" class="flex items-center">
+      <a href="index.html" class="flex items-center">
         <img src="assets/figures/home-button_resized.webp" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
-        <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">Musilene</span>
+        <span class="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-gray-200">{{ titel }}</span>
       </a>
       <div class="flex lg:order-2">
         <button id="navbar-toggler" data-collapse-toggle="navbar-sticky" type="button"
@@ -36,25 +36,25 @@
         <ul
           class="flex flex-col p-4 mt-4 mb-4 lg:mb-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="/" class="nav-item">Home</a>
+            <a href="index.html" class="nav-item">{{ nav.home }}</a>
           </li>
           <li>
-            <a href="over-ons.html" class="nav-item">Over Musilene</a>
+            <a href="over-ons.html" class="nav-item">{{ nav.over_ons }}</a>
           </li>
           <li>
-            <a href="kom-meespelen.html" class="nav-item">Kom Meespelen!</a>
+            <a href="kom-meespelen.html" class="nav-item">{{ nav.kom_meespelen }}</a>
           </li>
           <li>
-            <a href="concerten.html" class="nav-item">Concerten</a>
+            <a href="concerten.html" class="nav-item">{{ nav.concerten }}</a>
           </li>
           <li>
-            <a href="activiteiten.html" class="nav-item">Activiteiten</a>
+            <a href="activiteiten.html" class="nav-item">{{ nav.activiteiten }}</a>
           </li>
           <li>
-            <a href="contact.html" class="nav-item lg:text-amber-600" aria-current="page">Contact</a>
+            <a href="contact.html" class="nav-item lg:text-amber-600" aria-current="page">{{ nav.contact }}</a>
           </li>
           <li>
-            <a href="sponsors.html" class="nav-item">Sponsors</a>
+            <a href="sponsors.html" class="nav-item">{{ nav.sponsors }}</a>
           </li>
         </ul>
       </div>
@@ -65,48 +65,47 @@
       <div class="mx-auto bg-white rounded-xl shadow overflow-hidden mt-8 md:mt-12 h-max">
         <div class="flex justify-center flex-col md:flex-row">
           <div class="p-8 grow md:order-1 order-2 my-auto">
-            <h2 class="font-bold text-xl mb-4">Contact</h2>
+            <h2 class="font-bold text-xl mb-4">{{ subtitel1 }}</h2>
 
             <div class="flex align-center mb-2">
               <div>
                 <i class="w-8 text-xl fa-solid fa-location-dot text-gray-500"></i>
               </div>
-              <p class="underline"><a target="_blank" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8">todo</a></p>
+              <p class="underline"><a target="_blank" href="{{ contact_adres.link }}">{{ contact_adres.tekst }}</a></p>
             </div>
             <div class="flex align-center mb-2">
               <div>
                 <i class="w-8 text-xl fa-solid fa-envelope text-gray-500"></i>
               </div>
-              <p class="underline"><a href="mailto:musilene@gmail.com"> musilene@gmail.com</a></p>
+              <p class="underline"><a href="mailto:{{ email }}">{{ email }}</a></p>
             </div>
             <div class="flex align-center mb-2">
               <div>
                 <i class="w-8 text-xl fa-solid fa-phone text-gray-500"></i>
               </div>
-              <p class="underline"><a href="tel:003214265657">+32 (0)14 26 56 57</a></p>
+              <p class="underline"><a href="tel:{{ tel.link }}">{{ tel.tekst }}</a></p>
             </div>
-            <h3 class="font-bold mt-4 mb-2">Repetitielokaal</h3>
+            <h3 class="font-bold mt-4 mb-2">{{ subtitel2 }}</h3>
             <div class="flex align-center mb-2">
 
               <div>
                 <i class="w-8 text-xl fa-solid fa-location-dot text-gray-500"></i>
               </div>
-              <p class="underline"><a target="_blank" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8">Boerenkrijglaan 23,
-                  2260 Westerlo</a></p>
+              <p class="underline"><a target="_blank" href="{{ repetitie_adres.link }}">{{ repetitie_adres.tekst }}</a></p>
             </div>
 
-            <h3 class="font-bold mt-4 mb-2">Volg ons op sociale media</h3>
+            <h3 class="font-bold mt-4 mb-2">{{ subtitel3 }}</h3>
             <div class="flex align-center mb-2">
               <div>
                 <i class="w-8 text-xl fa-brands fa-square-facebook text-gray-500"></i>
               </div>
-              <p><a href="https://www.facebook.com/musilene">@musilene</a></p>
+              <p><a href="{{ facebook.link }}">@{{ facebook.tekst }}</a></p>
             </div>
             <div class="flex align-center mb-2">
               <div>
                 <i class="w-8 text-xl fa-brands fa-square-instagram text-gray-500"></i>
               </div>
-              <p><a href="https://www.instagram.com/symfonischjeugdorkestmusilene/">@symfonischjeugdorkestmusilene</a>
+              <p><a href="{{ instagram.link }}">{{ instagram.tekst }}</a>
               </p>
             </div>
           </div>
@@ -121,26 +120,25 @@
 
   <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
-      <span class="text-sm text-gray-300 sm:text-center">Copyright &copy; <a href="https://musilene.be/"
-          class="hover:underline">Musilene 2023</a>.
+      <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-300 sm:mt-0">
 
 
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.facebook.com/musilene" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.facebook }}" target="_blank"><i
               class="fa-brands fa-square-facebook large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="https://www.instagram.com/symfonischjeugdorkestmusilene/"
+          <a class="mr-4 md:mr-6 sm:text-lg" href="{{ links.instagram }}"
             target="_blank"><i class="fa-brands fa-square-instagram large-black"></i></a>
         </li>
         <li>
-          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:musilene@gmail.com" target="_blank"><i
+          <a class="mr-4 md:mr-6 sm:text-lg" href="mailto:{{ links.mail }}" target="_blank"><i
               class="fa-solid fa-envelope large-black"></i></i></a>
         </li>
         <li>
-          <a class="md:mr-6 sm:text-lg" href="https://goo.gl/maps/tfqHFCmq7dDkg3iz8" target="_blank"><i
+          <a class="md:mr-6 sm:text-lg" href="{{ links.adres_repetitie }}" target="_blank"><i
               class="fa-solid fa-location-dot large-black"></i></a>
         </li>
       </ul>

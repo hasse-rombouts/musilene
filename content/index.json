@@ -1,13 +1,13 @@
 {
   "flyer": {
-    "titel": "Kom naar ons luisteren op ons volgende concert:",
+    "titel": "Kom luisteren naar ons volgende concert:",
     "tekst": "Kaarten kan je reserveren via <a class='text-amber-500' href='mailto:musilene@gmail.com'>musilene@gmail.com</a> of via <a class='text-amber-500' href='https://docs.google.com/forms/d/e/1FAIpQLSeVBpeOCE53U_nZEFuNsDkaYKxWOAAheUrEUlEN7m_dnUavKw/viewform'>deze link</a>."
   },
   "box1": {
     "titel": "Wie zijn wij?",
     "tekst": "Musilene is een symfonisch orkest voor jongeren die graag samen muziek maken. De groep bestaat op dit moment uit een 90-tal muzikanten. Zowel strijkers als hout- en koperblazers, slagwerkers, piano en harp zijn vertegenwoordigd in het orkest.",
     "link": {
-      "adres": "kom-meespelen.html",
+      "adres": "over-ons.html",
       "tekst": "Meer info"
     }
   },

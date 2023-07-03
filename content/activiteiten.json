@@ -8,5 +8,15 @@
     "paragrafen": [
       "In de zomervakanties gaan we op repetitieweekend of concertreis in het buitenland. Zo gingen we al naar Tsjechië, Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en Frankrijk."
     ]
+  },
+  "images": {
+    "sources" : [
+      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
+      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
+      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
+      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
+      "assets/figures/about2_resized.webp"
+    ]
   }
 }

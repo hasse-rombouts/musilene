@@ -104,26 +104,11 @@
       <div id="gallery" class="relative w-full space-y-2 mt-8 md:mt-12 mb-8 md:mb-12" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="mx-auto relative carousel-sizing overflow-hidden rounded-lg">
-              <!-- Item 1 -->
-            <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-            </div>
-            <!-- Item 2 -->
-            <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item="active">
-                <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-            </div>
-            <!-- Item 3 -->
-            <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-            </div>
-            <!-- Item 4 -->
-            <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-            </div>
-            <!-- Item 5 -->
-            <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-            </div>
+            {{ for img in images.sources }}
+              <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="{{ img }}" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+              </div>
+            {{ endfor }} 
         </div>
         <!-- Slider controls -->
         <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>

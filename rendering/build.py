@@ -5,9 +5,9 @@ import sys
 import time
 from typing import Dict
 
-from render import format_file
 from copy_flyer import copy_flyer
 from remove_file_extension import remove_file_extensions
+from render import format_file
 
 
 def index_files():

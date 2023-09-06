@@ -8,5 +8,14 @@
     "paragrafen": [
       "In de zomervakanties gaan we op repetitieweekend of concertreis in het buitenland. Zo gingen we al naar Tsjechië, Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en Frankrijk."
     ]
+  },
+  "images": {
+    "sources" : [    
+      "assets/figures/activiteiten/activities_carousel_1.JPG",
+      "assets/figures/activiteiten/activities_carousel_2.JPG",
+      "assets/figures/activiteiten/activities_carousel_3.JPG",
+      "assets/figures/activiteiten/activities_carousel_4.JPG",
+      "assets/figures/activiteiten/activities_carousel_5.JPG"
+    ]
   }
 }

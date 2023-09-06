@@ -1,6 +1,6 @@
 import os
 import time
-from build import get_data, process_file
+from build import process_file
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -8,11 +8,10 @@ from watchdog.events import FileSystemEventHandler
 # and rebuild the build folder when changes are detected.
 
 def start_watcher():
-    data = get_data()
     class Handler(FileSystemEventHandler):
         def on_modified(self, event):
             print(f'File {event.src_path} has been modified')
-            process_file(event.src_path, data)
+            process_file(event.src_path, False)
 
     observer = Observer()
     observer.schedule(Handler(), path=os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')), recursive=True)

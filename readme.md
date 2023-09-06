@@ -132,9 +132,9 @@ maar **niet** naar
 
 4. Log in op je GitHub-account als daarom wordt gevraagd.
 
-5. Selecteer de `musilene` repository uit de lijst met beschikbare repositories.
+5. Selecteer de `musilene` repository uit de lijst met beschikbare repositories, of gebruik de URL [https://github.com/Musilene/musilene](https://github.com/Musilene/musilene).
 
-6. Kies de lokale map op je computer waar je de repository wilt klonen en klik op "Select as Repository Destination" (of gelijkaardig).
+6. Kies de lokale map op je computer waar je de repository wilt clonen en klik op "Select as Repository Destination" (of gelijkaardig).
 
 ## Deel 3: Aanpassen van de teksten en committen
 
@@ -160,4 +160,4 @@ maar **niet** naar
 
 3. Wacht tot de push-operatie is voltooid. Je kunt de voortgang volgen in het "output" paneel onderaan Visual Studio Code.
 
-Na het volgen van deze stappen worden de aangepaste teksten in de gekloonde repository gecommit en gepusht naar de externe GitHub-repository. Het kan enkele minuten duren voordat de wijzigingen zichtbaar zijn op de website. Je kan de _deploy_ volgen op het tabblad [Actions](https://github.com/hasse-rombouts/musilene/actions) op Github.
+Na het volgen van deze stappen worden de aangepaste teksten in de gekloonde repository gecommit en gepusht naar de externe GitHub-repository. Het kan enkele minuten duren voordat de wijzigingen zichtbaar zijn op de website. Je kan de _deploy_ volgen op het tabblad [Actions](https://github.com/Musilene/musilene/actions) op Github.

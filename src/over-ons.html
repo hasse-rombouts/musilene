@@ -82,7 +82,7 @@
     <div class="order-2 lg:order-1 flex justify-center text-justify">
       <div class="my-auto space-y-6 p-8">
         <h1 class="text-2xl xl:text-3xl text-left">{{ box2.titel }}</h1>
-        {{ for paragraph in box1.paragrafen }}
+        {{ for paragraph in box2.paragrafen }}
           <p>{{ paragraph }}</p>
         {{ endfor }}
       </div>
@@ -133,7 +133,6 @@
       </div>
     </section>
   </section>
-
   <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
       <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}

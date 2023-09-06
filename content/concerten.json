@@ -4,13 +4,6 @@
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a class='text-amber-500' href='mailto:musilene@gmail.com'>musilene@gmail.com</a> of via <a target='_blank' class='text-amber-500' href='https://docs.google.com/forms/d/e/1FAIpQLSeVBpeOCE53U_nZEFuNsDkaYKxWOAAheUrEUlEN7m_dnUavKw/viewform'>deze link</a>.",
   "concerts": [
     {
-      "title": "Aperitiefconcert ism Davidsfonds Westerlo",
-      "date": "5 maart 2023, 11u00",
-      "addressLine1": "Refter Middenschool Vrije St. Lambertusscholen",
-      "addressLine2": "De Merodedreef, Westerlo",
-      "link": "https://goo.gl/maps/F2tthA5JDnXzpjf28"
-    },
-    {
       "title": "Lenteconcert",
       "date": "20 mei 2023",
       "addressLine1": "De Zoerla",
@@ -18,14 +11,14 @@
       "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     },
     {
-      "title": "Feestconcert 35 jaar Musilene",
+      "title": "In Dreams: 35 jaar Musilene",
       "date": "18 november 2023, 20u00",
       "addressLine1": "De Zoerla",
       "addressLine2": "Gevaertlaan 1, Westerlo",
       "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
     },
     {
-      "title": "Feestconcert 35 jaar Musilene",
+      "title": "In Dreams: 35 jaar Musilene",
       "date": "19 november 2023, 15u00",
       "addressLine1": "De Zoerla",
       "addressLine2": "Gevaertlaan 1, Westerlo",

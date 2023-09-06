@@ -67,7 +67,7 @@
       <!-- meer dan repeteren alleen -->
       <div class="mx-auto bg-white rounded-xl shadow space-y-2 overflow-hidden mt-8 md:mt-12 h-max">
         <div class="md:shrink-0">
-          <img class="h-72 w-full object-cover md:h-96" src="assets/figures/2017_crupies_group.jfif"
+          <img class="h-72 w-full object-cover md:h-96" src="assets/figures/activiteiten/2017_crupies_group.jfif"
             alt="Group picture 2017, holiday to Crupies">
         </div>
         <div class="p-4 md:p-8 ">
@@ -81,7 +81,7 @@
       <div class="mx-auto bg-white rounded-xl shadow space-y-2 overflow-hidden mt-8 md:mt-12 h-max">
         <div class="md:flex justify-center">
           <div class="md:order-last">
-            <img class="w-full h-auto max-h-72 object-cover md:h-full md:w-96" src="assets/figures/2017_crupies_2.jfif"
+            <img class="w-full h-auto max-h-72 object-cover md:h-full md:w-96" src="assets/figures/activiteiten/2017_crupies_2.jfif"
               alt="Landschap Crupies 2017">
           </div>
           <div class="my-auto md:order-1 w-full p-4 md:p-8 ">
@@ -96,7 +96,7 @@
 
       <!-- groupsfoto spelen in drop -->
       <div class="mx-auto bg-white rounded-xl shadow space-y-2 overflow-hidden mt-8 md:mt-12 h-max">
-        <img class="w-full h-auto object-cover" src="assets/figures/2017_crupies_playing.jfif"
+        <img class="w-full h-auto object-cover" src="assets/figures/activiteiten/2017_crupies_playing.jfif"
           alt="Spelen in het dorp, reis Crupies 2017">
       </div>
 
@@ -106,7 +106,7 @@
         <div class="mx-auto relative carousel-sizing overflow-hidden rounded-lg">
             {{ for img in images.sources }}
               <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ img }}" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                <img src="{{ img }}" class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
               </div>
             {{ endfor }} 
         </div>
@@ -128,7 +128,7 @@
   </section>
 
 
-  <footer class="px-4 py-4 dark:bg-gray-800 mt-auto">
+  <footer class="px-4 py-4 dark:bg-gray-800 mt-auto"> 
     <div class="p-4 w-full bg-zinc-900 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 ">
       <span class="text-sm text-gray-300 sm:text-center">{{ footer.tekst }}
       </span>

@@ -10,13 +10,12 @@
     ]
   },
   "images": {
-    "sources" : [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-      "assets/figures/about2_resized.webp"
+    "sources" : [    
+      "assets/figures/activiteiten/activities_carousel_1.JPG",
+      "assets/figures/activiteiten/activities_carousel_2.JPG",
+      "assets/figures/activiteiten/activities_carousel_3.JPG",
+      "assets/figures/activiteiten/activities_carousel_4.JPG",
+      "assets/figures/activiteiten/activities_carousel_5.JPG"
     ]
   }
 }
